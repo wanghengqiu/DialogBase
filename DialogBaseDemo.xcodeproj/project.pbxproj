@@ -10,11 +10,11 @@
 		813EFDE91EB877D50045037E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EFDE81EB877D50045037E /* main.m */; };
 		813EFDEC1EB877D50045037E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EFDEB1EB877D50045037E /* AppDelegate.m */; };
 		813EFDEF1EB877D50045037E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EFDEE1EB877D50045037E /* ViewController.m */; };
-		813EFDF21EB877D50045037E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813EFDF01EB877D50045037E /* Main.storyboard */; };
 		813EFDF41EB877D50045037E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813EFDF31EB877D50045037E /* Assets.xcassets */; };
-		813EFDF71EB877D50045037E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813EFDF51EB877D50045037E /* LaunchScreen.storyboard */; };
 		813EFE021EB877D50045037E /* DialogBaseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EFE011EB877D50045037E /* DialogBaseDemoTests.m */; };
 		813EFE0D1EB877D50045037E /* DialogBaseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EFE0C1EB877D50045037E /* DialogBaseDemoUITests.m */; };
+		813EFE1C1EB8AA320045037E /* DialogBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EFE1B1EB8AA320045037E /* DialogBase.m */; };
+		813EFE1F1EB941490045037E /* TestDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 813EFE1E1EB941490045037E /* TestDialog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,7 @@
 		813EFDEB1EB877D50045037E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		813EFDED1EB877D50045037E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		813EFDEE1EB877D50045037E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		813EFDF11EB877D50045037E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		813EFDF31EB877D50045037E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		813EFDF61EB877D50045037E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		813EFDF81EB877D50045037E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		813EFDFD1EB877D50045037E /* DialogBaseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialogBaseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		813EFE011EB877D50045037E /* DialogBaseDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialogBaseDemoTests.m; sourceTree = "<group>"; };
@@ -51,6 +49,10 @@
 		813EFE081EB877D50045037E /* DialogBaseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DialogBaseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		813EFE0C1EB877D50045037E /* DialogBaseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DialogBaseDemoUITests.m; sourceTree = "<group>"; };
 		813EFE0E1EB877D50045037E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813EFE1A1EB8AA320045037E /* DialogBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogBase.h; sourceTree = "<group>"; };
+		813EFE1B1EB8AA320045037E /* DialogBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogBase.m; sourceTree = "<group>"; };
+		813EFE1D1EB941490045037E /* TestDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDialog.h; sourceTree = "<group>"; };
+		813EFE1E1EB941490045037E /* TestDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDialog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +107,13 @@
 				813EFDEB1EB877D50045037E /* AppDelegate.m */,
 				813EFDED1EB877D50045037E /* ViewController.h */,
 				813EFDEE1EB877D50045037E /* ViewController.m */,
-				813EFDF01EB877D50045037E /* Main.storyboard */,
 				813EFDF31EB877D50045037E /* Assets.xcassets */,
-				813EFDF51EB877D50045037E /* LaunchScreen.storyboard */,
 				813EFDF81EB877D50045037E /* Info.plist */,
 				813EFDE71EB877D50045037E /* Supporting Files */,
+				813EFE1A1EB8AA320045037E /* DialogBase.h */,
+				813EFE1B1EB8AA320045037E /* DialogBase.m */,
+				813EFE1D1EB941490045037E /* TestDialog.h */,
+				813EFE1E1EB941490045037E /* TestDialog.m */,
 			);
 			path = DialogBaseDemo;
 			sourceTree = "<group>";
@@ -246,9 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813EFDF71EB877D50045037E /* LaunchScreen.storyboard in Resources */,
 				813EFDF41EB877D50045037E /* Assets.xcassets in Resources */,
-				813EFDF21EB877D50045037E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +277,8 @@
 			files = (
 				813EFDEF1EB877D50045037E /* ViewController.m in Sources */,
 				813EFDEC1EB877D50045037E /* AppDelegate.m in Sources */,
+				813EFE1F1EB941490045037E /* TestDialog.m in Sources */,
+				813EFE1C1EB8AA320045037E /* DialogBase.m in Sources */,
 				813EFDE91EB877D50045037E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,25 +313,6 @@
 			targetProxy = 813EFE091EB877D50045037E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		813EFDF01EB877D50045037E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				813EFDF11EB877D50045037E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		813EFDF51EB877D50045037E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				813EFDF61EB877D50045037E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		813EFE0F1EB877D50045037E /* Debug */ = {
@@ -424,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DialogBaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whq.test.DialogBaseDemo;
@@ -435,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DialogBaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whq.test.DialogBaseDemo;
